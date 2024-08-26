@@ -1,0 +1,26 @@
+.app-header {
+  background: linear-gradient(to right, #7aa6d5, #7448bc);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 3rem;
+}
+
+.brand-logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.tagline {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .app-header .d-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tagline {
+    margin-top: 0.3rem;
+  }
+}

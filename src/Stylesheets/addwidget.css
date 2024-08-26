@@ -1,0 +1,39 @@
+.addwidget {
+    background-color: white;
+    border: 4px solid #e4eff3;
+    border-radius: 0.7rem;
+    width: 29.3rem;
+    height: 14.5rem;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.1); 
+}
+
+.addWidget-button {
+    border: 2px solid #dbd9d9;
+    border-radius: 5px;
+    background-color: white;
+    color:#c0c1c1;
+    font-size: 0.9rem;
+    padding: 2px 4px 2px 3px;
+    display: flex;
+    align-items: center;
+}
+
+.addWidget-button:hover {
+    border: 2px solid #dbd9d9;
+    border-radius: 5px;
+    background-color: #dbd9d9;
+    color:white;
+    font-size: 13px;
+    padding: 2px 4px 2px 3px;
+    display: flex;
+    align-items: center;
+}
+
+.button-icon{
+    font-size: 23px;
+    margin-right: 7px;
+}
+  

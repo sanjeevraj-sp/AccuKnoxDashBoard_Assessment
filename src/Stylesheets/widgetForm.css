@@ -1,0 +1,51 @@
+
+.offcanvasheader {
+    background-color: rgb(48, 48, 218);
+    font-size: 14px;
+    color: white;
+    height: 3rem;
+}
+
+.custom-offcanvas-header .btn-close {
+    filter: invert(1); 
+}
+
+
+.custom-offcanvas-header .btn-close {
+    opacity: 1; 
+}
+
+.offcanvastitle {
+    font-size: 16px;
+    font-weight: 580;
+}
+
+.active-widgets-list {
+    font-size: 1.03rem;
+}
+.widget-item {
+  margin-bottom: 15px;
+}
+
+.addWidgetForm {
+    margin-top: 2rem;
+    background-color:rgb(236, 241, 246) ;
+    border: 1px solid rgb(212, 212, 212, 0.69);
+    box-shadow: 0 0 10px rgba(212, 212, 212, 0.69); 
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.form-header {
+    margin-bottom: 15px;
+}
+
+.inputGroup{
+    margin-top:10px;
+}
+
+.form-error-message {
+    display: block !important; 
+    margin-top: 2px; 
+    margin-bottom: 12px;
+  }

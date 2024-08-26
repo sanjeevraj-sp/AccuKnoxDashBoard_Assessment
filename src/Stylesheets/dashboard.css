@@ -1,0 +1,113 @@
+.dashBoard-body {
+  margin-top: 1rem;
+}
+
+.dashBoard-header {
+  align-items: center;
+  margin: 0.5rem 1rem 0rem 3.2rem;
+}
+
+.header-row {
+  justify-content: start;
+  align-items: center;
+}
+
+.header-name {
+  font-weight: 640;
+  font-size: 1.1rem;
+  text-align: left;
+  padding-left: 0px;
+}
+
+/* SearchBar css */
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 5px 18px;
+  border-radius: 18px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-right: 1rem;
+}
+
+.search-icon {
+  margin-right: 10px;
+  color: #888;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  width: 22rem;
+}
+
+/*Header Settings Items*/
+.header-settings {
+  padding-left: 9rem;
+}
+
+.add-widget-btn {
+  background-color: #f5f7fa;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 12px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.add-widget-btn .fa-plus {
+  margin-left: 5px;
+}
+
+.icon-btn {
+  background-color: #f5f7fa;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  height: 34px;
+  width: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.time-dropdown .dropdown-toggle {
+  background-color: #f5f7fa;
+  color: #1b75bc;
+  border: 1px solid #1b75bc;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.time-dropdown .dropdown-menu {
+  min-width: auto;
+}
+
+.time-dropdown .fa-clock {
+  margin-right: 5px;
+}
+
+/* DashBoard Widgets*/
+.dashBoard-widgets {
+   margin-top: 1rem; 
+   margin-left: 3.5rem;
+}
+
+.widgets-category{
+    margin-bottom: 1.5rem;
+}
+
+
+/* Category header */
+.category-header {
+    font-weight: 600;
+    font-size: 0.93rem;
+    margin-bottom: 1rem;
+}
